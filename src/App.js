@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import DomainDescription from "./domain/DomainDescription";
+import axios from "axios";
+import {useState} from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [orderDomain, setOrderDomain] = useState(undefined);
+    axios.get("https://raw.githubusercontent.com/charlespichery/node-bounded-context-canvas/main/export/orderBoundedContext.json"
+    ).then(res => {
+        console.log(res.data)
+        setOrderDomain(res.data)
+    })
+    return (
+        <div className="App">
+            <header className="App-header">
+                {orderDomain && <DomainDescription domain={orderDomain}/>}
+            </header>
+        </div>
+    );
 }
 
 export default App;
