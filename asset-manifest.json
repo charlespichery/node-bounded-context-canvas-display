@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/node-bounded-context-canvas-display/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/node-bounded-context-canvas-display/static/js/main.9d647a60.chunk.js",
+    "main.js.map": "/node-bounded-context-canvas-display/static/js/main.9d647a60.chunk.js.map",
+    "runtime-main.js": "/node-bounded-context-canvas-display/static/js/runtime-main.dc6fed44.js",
+    "runtime-main.js.map": "/node-bounded-context-canvas-display/static/js/runtime-main.dc6fed44.js.map",
+    "static/js/2.62b088c0.chunk.js": "/node-bounded-context-canvas-display/static/js/2.62b088c0.chunk.js",
+    "static/js/2.62b088c0.chunk.js.map": "/node-bounded-context-canvas-display/static/js/2.62b088c0.chunk.js.map",
+    "static/js/3.c900e594.chunk.js": "/node-bounded-context-canvas-display/static/js/3.c900e594.chunk.js",
+    "static/js/3.c900e594.chunk.js.map": "/node-bounded-context-canvas-display/static/js/3.c900e594.chunk.js.map",
+    "index.html": "/node-bounded-context-canvas-display/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/node-bounded-context-canvas-display/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.62b088c0.chunk.js.LICENSE.txt": "/node-bounded-context-canvas-display/static/js/2.62b088c0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc6fed44.js",
+    "static/js/2.62b088c0.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.9d647a60.chunk.js"
+  ]
+}
